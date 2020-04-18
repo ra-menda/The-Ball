@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject goButton;     //ボタン：開始時
     public GameObject retryButton;  //ボタン：リトライ
+    public GameObject clearText;    //テキスト：クリア
 
 
     // Start is called before the first frame update
@@ -19,6 +20,12 @@ public class GameManager : MonoBehaviour
     {
         retryButton.SetActive(false);   //リトライボタン非表示
         isBallMoving = false;           //ボールは移動中ではない    
+    }
+
+    //ステージクリア処理
+    public void StageClear(){
+        clearText.SetActive(true);      //クリア表示
+        retryButton.SetActive(false);   //リトライボタン非表示
     }
 
     // Update is called once per frame
@@ -48,4 +55,6 @@ public class GameManager : MonoBehaviour
         goButton.SetActive(true);
         isBallMoving = false;
     }
+
+    
 }
