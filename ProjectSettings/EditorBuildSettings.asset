@@ -4,5 +4,41 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScene.unity
+    guid: 9df41b8d7fa678a468a113bd0d42239b
+  - enabled: 1
+    path: Assets/Scenes/StageSelectScene.unity
+    guid: 3d3ada7d7729b464a8f9d759491de7d3
+  - enabled: 1
+    path: Assets/Scenes/PuzzleScene1.unity
+    guid: 84446195515438041b8a27b261c6b20c
+  - enabled: 1
+    path: Assets/Scenes/PuzzleScene2.unity
+    guid: c7ed766f4022a3247bc7817746bae3ae
+  - enabled: 1
+    path: Assets/Scenes/PuzzleScene3.unity
+    guid: b333ca196e7f5354fa9c4355df51c6aa
+  - enabled: 1
+    path: Assets/Scenes/PuzzleScene4.unity
+    guid: e59e347d761147a4985aee63a044e09b
+  - enabled: 1
+    path: Assets/Scenes/PuzzleScene5.unity
+    guid: ca64f75921d54104d8ff56fe8577bbc6
+  - enabled: 1
+    path: Assets/Scenes/PuzzleScene6.unity
+    guid: 86129ea1cb274a44c957e69564199386
+  - enabled: 1
+    path: Assets/Scenes/PuzzleScene7.unity
+    guid: 8bd432ba872ebd24cb47e378a4ac5c08
+  - enabled: 1
+    path: Assets/Scenes/PuzzleScene8.unity
+    guid: 39dc61f691dc2f142a688170f238b991
+  - enabled: 1
+    path: Assets/Scenes/PuzzleScene9.unity
+    guid: a3ecac5c0a915a14787b7813017966d6
+  - enabled: 1
+    path: Assets/Scenes/PuzzleSceneBase.unity
+    guid: 414fd5a436139e042a8e3478489a2aef
   m_configObjects: {}
