@@ -42,4 +42,9 @@ public class StageSelectManager : MonoBehaviour
         //ゲームシーンへ
         SceneManager.LoadScene ("PuzzleScene" + stageNo);
     }
+
+    public void PushBackButton (){
+        //Backシーンへ
+        SceneManager.LoadScene ("TitleScene");
+    }
 }
